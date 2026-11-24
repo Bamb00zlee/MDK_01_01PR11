@@ -18,5 +18,7 @@ namespace Overload_Патрушева.Classes
             this.Lastname = LastName;
             this.Surname = Surname;
         }
+
+
     }
 }

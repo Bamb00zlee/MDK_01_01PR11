@@ -8,7 +8,7 @@ namespace Overload_Патрушева.Classes
 {
     public class StudentsRepo
     {
-        private static List<Student> AllStudent()
+        private List<string> AllStudent()
         {
             List<Student> allStudent = new List<Student>();
             allStudent.Add(new Student("Патрушева", "Наталья", "Сергеевна"));
@@ -16,8 +16,32 @@ namespace Overload_Патрушева.Classes
             allStudent.Add(new Student("Кандакова", "Ангелина", "Игоревна"));
             allStudent.Add(new Student("Неизвестная", "Дарья", "Олеговна"));
             allStudent.Add(new Student("Павлов", "Алексей", "Михайлович"));
-
-            return allStudent;
         }
+
+        public string PrintNames()
+        {
+            
+        }
+        public string PrintNames(string separator)
+        {
+
+        }
+        public string PrintNames(char separator)
+        {
+
+        }
+        public string PrintNames(string separator, bool sort)
+        {
+
+        }
+        public string PrintNames(string separator, bool sort, bool reverse)
+        {
+
+        }
+        public string PrintNames(string separator, int maxCount)
+        {
+
+        }
+
     }
 }
