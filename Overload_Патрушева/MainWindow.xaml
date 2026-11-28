@@ -48,7 +48,8 @@
             FontWeight="Bold"
             Background="Black" 
             Margin="10,10,10,10" 
-            Grid.Column="1" Grid.Row="6"/>
+            Grid.Column="1" Grid.Row="6"
+            Click="Get_list"/>
         <TextBox
             x:Name="forRazdelitel" 
             Grid.Column="2" 
